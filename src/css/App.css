@@ -1,0 +1,116 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid
+{
+  display: grid;
+}
+
+.btn-container
+{
+  width: 30%;
+}
+
+.btn
+{
+  margin-top: 50px;
+  padding: 5px;
+}
+
+/* *****FORM INPUT***** */
+
+.form-container
+{
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid #85929E;
+  height: 60vh;
+  width: 50%;
+  margin: 20vh auto;
+}
+
+.loan-details
+{
+  background-color: #E5E8E8;
+  padding: 30px;
+}
+
+.form-control-container
+{
+  margin-top: 20px;
+  width: 80%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.form-control-container label
+{
+  display: block;
+}
+
+.form-control
+{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #85929E;
+  padding: 5px;
+}
+
+/* *****BUTTON***** */
+.btn
+{
+  width: 100%;
+  background-color: #3498DB;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px;
+}
+
+/* *****LOAN SUMMARY***** */
+.loan-summary-container
+{
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.loan-summary-header
+{
+  justify-items: center;
+}
+
+.loan-summary-header div
+{
+  text-align: center;
+  border: 1px solid #85929E;
+  width: 50%;
+  height: 60px;
+  margin-top: 25px;
+  font-size: 3rem;
+}
+
+.loan-summary-items
+{
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.loan-summary-items h3
+{
+  margin-top: 20px;
+}
+
+.loan-summary-items div
+{
+  border: 1px solid #85929E;
+  height: 30px;
+  width: 50%;
+}
+
+
+
